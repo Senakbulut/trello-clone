@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+   <v-app>
     <v-content >
         <!-- desktop -->
         <!-- <div class="d-none d-md-block"></div> -->
@@ -63,8 +63,8 @@
           <nuxt />
     </v-content>
   </v-app>
-</template>
 
+</template>
 <script>
 export default {
   data() {
@@ -83,5 +83,8 @@ a {
   color: $text-color;
   padding: 10px 0px 10px 3px;
   font-size: 24px;
+}
+.v-application a{
+  color: #443A45;
 }
 </style>
